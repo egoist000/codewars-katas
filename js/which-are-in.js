@@ -13,7 +13,7 @@
 function inArray(array1, array2) {
     return array1.filter(s1 => {
       return array2.some(s2 => {
-        return s2.includes(s1) || s1.includes(s2);
+        return s2.includes(s1);
       });
     }).sort();
 }
