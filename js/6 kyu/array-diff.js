@@ -11,4 +11,4 @@ function arrayDiff(a, b) {
     return a.filter(e => {
       return !b.includes(e, 0);
     });
-  }
+}
