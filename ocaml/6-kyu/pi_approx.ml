@@ -13,4 +13,3 @@ let iter_pi epsilon =
             (((Float.pow (-1.) (float_of_int(iter))/.(float_of_int((2*iter)+1)))
             +. appr))
     in aux 0 0.
-        
